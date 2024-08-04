@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estyle.css">
+    <!-- enlace google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="img-logo" src="/img/Logo.png" alt="logo">
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+
+        <section>
+            <textarea class="text-area" placeholder="Ingrese texto aqui" cols="30" rows="10"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-descencriptar" onclick="btnDescencriptar() ">Descencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>&copy;2024.FernandezBáezMaximiliano</p>
+    </footer>
+    <script src="/app.js"></script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
